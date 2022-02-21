@@ -9,7 +9,6 @@ Following that, the data was transformed into a series of different excel files 
 
 ### Data
 The data file contains: 
-
 File | Content
 --- | ---
 "argument"  | Contains all the documents as input in the train dataset
@@ -18,7 +17,6 @@ File | Content
 
 ### Code
 The code file contains:
-
 File | Content
 --- | ---
 "Main_code.ipynb" | Includes all the main code from data import, preparation/cleansing, building and running RNN and CNN models as well as evaluation measurements 
