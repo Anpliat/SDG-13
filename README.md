@@ -10,6 +10,8 @@ We studied the Sustainable Development Goals (SDGs), specifically Goal 13: “Ta
 
 # Data
 The data file contains: 
+
+File | Content
 --- | ---
 "argument"  | Contains all the documents as input in the train dataset
 "argument_test" | Contains all the documents as input for the test dataset
