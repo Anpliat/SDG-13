@@ -1,6 +1,6 @@
 # SDG 13: Climate action (Argument Detection)
 
-### Purpose
+### Scope
 We studied the Sustainable Development Goals (SDGs), specifically Goal 13: “Take urgent action to combat climate change and its impacts”. The problem we had to deal with was that a large number of papers are published each year without any accurate content quality evaluation. As a result, many papers either do not propose or support any new propositions, or do not provide evidence to back up their claims. Thus, the primary goal of our analysis was to correctly predict as many arguments (i.e., evidence and claims) as possible in order to be able to quickly evaluate the content of each paper. The code development was performed in Python.
 
 ### Overview of Analysis
