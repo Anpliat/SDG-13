@@ -11,14 +11,14 @@ Following that, the data was transformed into a series of different excel files 
 The data file contains: 
 Filename | Content
 --- | ---
-"argument"  | Contains all the documents as input in the train dataset
-"argument_test" | Contains all the documents as input for the test dataset
+"argument"  | Contains all the documents as input in the train dataset.
+"argument_test" | Contains all the documents as input for the test dataset.
 "Model_CNN365" | Contains all the files needed for someone in order to use the best trained CNN model and its weights. To do so, it is necessary to load the model through Keras as described in the code ipynb file (“Main_code.ipynb”). 
 
 ### Code
 The code file contains:
 Filename | Content
 --- | ---
-"Main_code.ipynb" | Includes all the main code from data import, preparation/cleansing, building and running RNN and CNN models as well as evaluation measurements 
+"Main_code.ipynb" | Includes all the main code from data import, preparation/cleansing, building and running RNN and CNN models as well as evaluation measurements .
 "CNN_parameter_testing.ipynb" | It was created only for testing the different (hyper-)paremeter values of the CNN model. The first part of the code is the same with the main code file. The testing begins from the «Build Text CNN Model» section.
 "ML_MASTER_TEST.ipynb" | Includes code for accessing the best trained CNN model across the entire dataset (without splitting in train and validation parts). The first part of the code is identical to that of the “Main_code” file. In addition to the "winning" model, the jupyter notebook includes code for the (unseen) test dataset. The code reads the testing files' folder and exports a new file with the same filename and the results of the CNN argument detection per row for each file.
