@@ -9,7 +9,7 @@ Following that, the data was transformed into a series of different excel files 
 
 ### Data
 The data file contains: 
-File | Content
+Filename | Content
 --- | ---
 "argument"  | Contains all the documents as input in the train dataset
 "argument_test" | Contains all the documents as input for the test dataset
@@ -17,7 +17,7 @@ File | Content
 
 ### Code
 The code file contains:
-File | Content
+Filename | Content
 --- | ---
 "Main_code.ipynb" | Includes all the main code from data import, preparation/cleansing, building and running RNN and CNN models as well as evaluation measurements 
 "CNN_parameter_testing.ipynb" | It was created only for testing the different (hyper-)paremeter values of the CNN model. The first part of the code is the same with the main code file. The testing begins from the «Build Text CNN Model» section.
